@@ -1,0 +1,48 @@
+Source: libkf5mailcommon
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.19.0~),
+               pkg-kde-tools (>= 0.12),
+Standards-Version: 3.9.8
+Homepage: http://pim.kde.org/
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/mailcommon.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/mailcommon.git
+
+Package: libkf5mailcommon5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KDE PIM email utility library
+ The mail common library provides utility functions for dealing with email.
+ .
+ This package is part of KDE PIM module.
+
+Package: libkf5mailcommon-plugins
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KDE PIM email utility library, plugins
+ The mail common library provides utility functions for dealing with email.
+ .
+ This package contains the plugins distributed with the library.
+ .
+ This package is part of KDE PIM module.
+
+Package: libkf5mailcommon-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libkf5mailcommon5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: KDE PIM email utility library, devel files
+ The mail common library provides utility functions for dealing with email.
+ .
+ This package contains the development files needed for the KDE PIM mail common
+ library.
+ .
+ This package is part of KDE PIM module.
