@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.12 amd64
+# SymbolsHelper-Confirmed: 4:16.04.0 amd64
 libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon10MailFilter10readConfigERK12KConfigGroupb@Base 4:15.12
  _ZN10MailCommon10MailFilter10setEnabledEb@Base 4:15.12
@@ -17,6 +17,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon10MailFilter20setConfigureShortcutEb@Base 4:15.12
  _ZN10MailCommon10MailFilter21setStopProcessingHereEb@Base 4:15.12
  _ZN10MailCommon10MailFilter22setApplyBeforeOutboundEb@Base 4:15.12
+ _ZN10MailCommon10MailFilter24filterActionsMaximumSizeEv@Base 4:16.04.0
  _ZN10MailCommon10MailFilter24generateRandomIdentifierEv@Base 4:15.12
  _ZN10MailCommon10MailFilter6purifyEb@Base 4:15.12
  _ZN10MailCommon10MailFilter7actionsEv@Base 4:15.12
@@ -137,6 +138,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon13SearchPattern11deserializeERK10QByteArray@Base 4:15.12
  _ZN10MailCommon13SearchPattern18importLegacyConfigERK12KConfigGroup@Base 4:15.12
  _ZN10MailCommon13SearchPattern19generateSieveScriptER11QStringListR7QString@Base 4:15.12
+ _ZN10MailCommon13SearchPattern22filterRulesMaximumSizeEv@Base 4:16.04.0
  _ZN10MailCommon13SearchPattern4initEv@Base 4:15.12
  _ZN10MailCommon13SearchPattern6purifyEb@Base 4:15.12
  _ZN10MailCommon13SearchPatternC1ERK12KConfigGroup@Base 4:15.12
