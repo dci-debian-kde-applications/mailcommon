@@ -49,6 +49,8 @@ Package: libkf5mailcommon-plugins
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5libkdepim5 (<< 4:16.04)
+Replaces: libkf5libkdepim5 (<< 4:16.04)
 Description: KDE PIM email utility library, plugins
  The mail common library provides utility functions for dealing with email.
  .
