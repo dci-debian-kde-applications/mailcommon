@@ -1,9 +1,7 @@
-libkf5mailcommon (4:16.04.1-1~2.gbpce9efc) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @ce9efc5b5aac8a494688a4575dc52fc975f3ff78 **
+libkf5mailcommon (4:16.04.1-1) experimental; urgency=medium
 
   * Initial release.
-  * UNRELEASED
   * Add missing breaks/replaces
+  * Add new upstream patch: upstream_add_copying_files.patch
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 05 Jun 2016 18:04:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 06 Jun 2016 23:18:25 +0200
