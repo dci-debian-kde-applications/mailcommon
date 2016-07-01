@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.1 arm64
+# SymbolsHelper-Confirmed: 4:16.04.2 amd64 armhf i386
 libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon10MailFilter10readConfigERK12KConfigGroupb@Base 4:15.12
  _ZN10MailCommon10MailFilter10setEnabledEb@Base 4:15.12
@@ -295,6 +295,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon16FolderCollection14setMailingListERKN11MessageCore11MailingListE@Base 4:15.12
  _ZN10MailCommon16FolderCollection14setWriteConfigEb@Base 4:15.12
  _ZN10MailCommon16FolderCollection15configGroupNameERKN7Akonadi10CollectionE@Base 4:15.12
+ _ZN10MailCommon16FolderCollection16setFormatMessageEN13MessageViewer6Viewer20DisplayFormatMessageE@Base 4:16.04.2
  _ZN10MailCommon16FolderCollection16staticMetaObjectE@Base 4:15.12
  _ZN10MailCommon16FolderCollection21setMailingListEnabledEb@Base 4:15.12
  _ZN10MailCommon16FolderCollection21setUseDefaultIdentityEb@Base 4:15.12
@@ -900,6 +901,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZNK10MailCommon16FolderCollection10statisticsEv@Base 4:15.12
  _ZNK10MailCommon16FolderCollection11writeConfigEv@Base 4:15.12
  _ZNK10MailCommon16FolderCollection12isStructuralEv@Base 4:15.12
+ _ZNK10MailCommon16FolderCollection13formatMessageEv@Base 4:16.04.2
  _ZNK10MailCommon16FolderCollection13isWriteConfigEv@Base 4:15.12
  _ZNK10MailCommon16FolderCollection14isSystemFolderEv@Base 4:15.12
  _ZNK10MailCommon16FolderCollection16fallBackIdentityEv@Base 4:15.12
