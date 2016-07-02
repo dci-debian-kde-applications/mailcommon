@@ -1,12 +1,11 @@
-libkf5mailcommon (4:16.04.2-1~2.gbp34dec2) UNRELEASED; urgency=medium
+libkf5mailcommon (4:16.04.2-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @34dec270ad20674078a35b3209655c62ff657ef3 **
-
+  [ Automatic packaging ]
   * Refresh patches
   * Update symbols files with the buildds results
   * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 01 Jul 2016 21:35:53 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 02 Jul 2016 10:42:59 +0200
 
 libkf5mailcommon (4:16.04.1-1) experimental; urgency=medium
 
