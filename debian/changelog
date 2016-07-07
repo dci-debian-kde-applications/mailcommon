@@ -1,3 +1,9 @@
+libkf5mailcommon (4:16.04.2-2~) UNRELEASED; urgency=medium
+
+  * 
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 07 Jul 2016 10:21:29 +0200
+
 libkf5mailcommon (4:16.04.2-1) experimental; urgency=medium
 
   [ Automatic packaging ]
