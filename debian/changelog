@@ -1,6 +1,6 @@
-libkf5mailcommon (4:16.08.0-1~1.gbpb8e39f) UNRELEASED; urgency=medium
+libkf5mailcommon (4:16.08.1-1~1.gbp67955e) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b8e39f59aaae96077ba76d64fd4bf3b4f1cbe08e **
+  ** SNAPSHOT build @67955ef46a6b9d38c25ab58e9670b161ff1d9686 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @d85d3fb57f4cdd294ac72d1c8c8391ee1e418d67 **
@@ -10,8 +10,9 @@ libkf5mailcommon (4:16.08.0-1~1.gbpb8e39f) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Refresh patches
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 21:04:15 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 21:04:34 +0200
 
 libkf5mailcommon (4:16.04.2-2) unstable; urgency=low
 
