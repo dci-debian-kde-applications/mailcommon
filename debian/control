@@ -7,7 +7,7 @@ Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.23.0~),
                kdesignerplugin (>= 5.23.0~),
-               kio-dev (>= 5.23.0~),
+               libkf5kio-dev (>= 5.23.0~),
                libkf5akonadi-dev (>= 4:5.3.1~),
                libkf5akonadimime-dev (>= 5.3.1~),
                libkf5archive-dev (>= 5.23.0~),
@@ -34,6 +34,10 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5widgetsaddons-dev (>= 5.23.0~),
                libkf5windowsystem-dev (>= 5.23.0~),
                libkf5xmlgui-dev (>= 5.23.0~),
+               libgpg-error-dev,
+               libgpgme-dev | libgpgme11-dev,
+               libkf5contacteditor-dev (>= 17.04.0~),
+               libkf5mimetreeparser-dev,
                libphonon4qt5-dev,
                libphonon4qt5experimental-dev,
                pkg-kde-tools (>= 0.12),
@@ -49,6 +53,8 @@ Package: libkf5mailcommon5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: KDE PIM email utility library
  The mail common library provides utility functions for dealing with email.
  .
@@ -80,6 +86,7 @@ Depends: libkf5akonadi-dev (>= 4:5.3.1~),
          libkf5messageviewer-dev (>= 5.3.1~),
          libkf5pimcommon-dev (>= 5.3.1~),
          qtbase5-dev (>= 5.5.0~),
+         libkf5messagecomposer-dev (>= 5.2.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM email utility library, devel files

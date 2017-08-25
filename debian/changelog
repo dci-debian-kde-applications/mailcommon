@@ -1,3 +1,69 @@
+libkf5mailcommon (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:43:08 +0000
+
+libkf5mailcommon (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:26:05 +0000
+
+libkf5mailcommon (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:24:42 +0000
+
+libkf5mailcommon (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:27:36 +0000
+
+libkf5mailcommon (4:17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 20 Apr 2017 09:30:46 +0000
+
+libkf5mailcommon (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:51:32 +0000
+
+libkf5mailcommon (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 17:04:16 +0000
+
+libkf5mailcommon (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:24:53 +0000
+
+libkf5mailcommon (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:33:03 +0000
+
+libkf5mailcommon (4:16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:54:57 +0000
+
+libkf5mailcommon (4:16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:41:33 +0000
+
 libkf5mailcommon (4:16.08.1-1~1.gbp67955e) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @67955ef46a6b9d38c25ab58e9670b161ff1d9686 **
@@ -13,6 +79,24 @@ libkf5mailcommon (4:16.08.1-1~1.gbp67955e) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 21:04:34 +0200
+
+libkf5mailcommon (4:16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:08:27 +0000
+
+libkf5mailcommon (4:16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:50:34 +0000
+
+libkf5mailcommon (4:16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 03 Aug 2016 12:51:47 +0000
 
 libkf5mailcommon (4:16.04.2-2) unstable; urgency=low
 
