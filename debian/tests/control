@@ -1,6 +1,6 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
-         xvfb, xauth, dbus-x11, libkf5akonadi-dev-bin, akonadi-server,
+         xvfb, xauth, dbus, libkf5akonadi-dev-bin, akonadi-server,
          akonadi-backend-sqlite, libkf5akonadisearch-bin
 Restrictions: build-needed
 
