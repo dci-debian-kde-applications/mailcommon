@@ -1,8 +1,9 @@
-# SymbolsHelper-Confirmed: 4:16.04.2 amd64 armhf i386
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon10MailFilter10readConfigERK12KConfigGroupb@Base 4:15.12
  _ZN10MailCommon10MailFilter10setEnabledEb@Base 4:15.12
  _ZN10MailCommon10MailFilter11setShortcutERK12QKeySequence@Base 4:15.12
+ _ZN10MailCommon10MailFilter12agentRemovedERK7QString@Base 4:17.08.0
  _ZN10MailCommon10MailFilter13folderRemovedERKN7Akonadi10CollectionES4_@Base 4:15.12
  _ZN10MailCommon10MailFilter13setAutoNamingEb@Base 4:15.12
  _ZN10MailCommon10MailFilter14setToolbarNameERK7QString@Base 4:15.12
@@ -125,10 +126,14 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon13FilterManager19showFilterLogDialogEx@Base 4:15.12
  _ZN10MailCommon13FilterManager22slotFinishedTagListingEP4KJob@Base 4:15.12
  _ZN10MailCommon13FilterManager22slotServerStateChangedEN7Akonadi13ServerManager5StateE@Base 4:15.12
+ _ZN10MailCommon13FilterManager7cleanupEv@Base 4:17.08.0
  _ZN10MailCommon13FilterManager8instanceEv@Base 4:15.12
  _ZN10MailCommon13FilterManager9endUpdateEv@Base 4:15.12
  _ZN10MailCommon13FilterManagerC1Ev@Base 4:15.12
  _ZN10MailCommon13FilterManagerC2Ev@Base 4:15.12
+ _ZN10MailCommon13FilterManagerD0Ev@Base 4:17.08.0
+ _ZN10MailCommon13FilterManagerD1Ev@Base 4:17.08.0
+ _ZN10MailCommon13FilterManagerD2Ev@Base 4:17.08.0
  _ZN10MailCommon13ScheduledTaskC1ERKN7Akonadi10CollectionEb@Base 4:15.12
  _ZN10MailCommon13ScheduledTaskC2ERKN7Akonadi10CollectionEb@Base 4:15.12
  _ZN10MailCommon13ScheduledTaskD0Ev@Base 4:15.12
@@ -149,6 +154,30 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon13SearchPatternD2Ev@Base 4:15.12
  _ZN10MailCommon13SearchPatternaSERKS0_@Base 4:15.12
  _ZN10MailCommon13SearchPatternlsER11QDataStream@Base 4:15.12
+ _ZN10MailCommon14FolderSettings10clearCacheEv@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings10readConfigEv@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings11qt_metacastEPKc@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings11setIdentityEj@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings11setShortcutERK12QKeySequence@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings13forCollectionERKN7Akonadi10CollectionEb@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings13setCollectionERKN7Akonadi10CollectionE@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings14setMailingListERKN11MessageCore11MailingListE@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings14setWriteConfigEb@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings15configGroupNameERKN7Akonadi10CollectionE@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings15resetHtmlFormatEv@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings16setFormatMessageEN13MessageViewer6Viewer20DisplayFormatMessageE@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings16staticMetaObjectE@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings21setMailingListEnabledEb@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings21setUseDefaultIdentityEb@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings21slotIdentitiesChangedEv@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings24setHideInSelectionDialogEb@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettings25setPutRepliesInSameFolderEb@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettingsC1ERKN7Akonadi10CollectionEb@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettingsC2ERKN7Akonadi10CollectionEb@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettingsD0Ev@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettingsD1Ev@Base 4:17.08.0
+ _ZN10MailCommon14FolderSettingsD2Ev@Base 4:17.08.0
  _ZN10MailCommon14FolderTreeView10readConfigEv@Base 4:15.12
  _ZN10MailCommon14FolderTreeView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN10MailCommon14FolderTreeView11qt_metacastEPKc@Base 4:15.12
@@ -157,6 +186,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon14FolderTreeView14isUnreadFolderERK11QModelIndexRS1_NS0_4MoveEb@Base 4:15.12
  _ZN10MailCommon14FolderTreeView14keyboardSearchERK7QString@Base 4:15.12
  _ZN10MailCommon14FolderTreeView15mousePressEventEP11QMouseEvent@Base 4:15.12
+ _ZN10MailCommon14FolderTreeView15newTabRequestedEb@Base 4:17.08.0
  _ZN10MailCommon14FolderTreeView16selectModelIndexERK11QModelIndex@Base 4:15.12
  _ZN10MailCommon14FolderTreeView16selectNextFolderERK11QModelIndex@Base 4:15.12
  _ZN10MailCommon14FolderTreeView16setSortingPolicyENS_16FolderTreeWidget13SortingPolicyEb@Base 4:15.12
@@ -164,7 +194,6 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon14FolderTreeView17disableSaveConfigEv@Base 4:15.12
  _ZN10MailCommon14FolderTreeView17setTooltipsPolicyENS_16FolderTreeWidget20ToolTipDisplayPolicyE@Base 4:15.12
  _ZN10MailCommon14FolderTreeView18restoreHeaderStateERK10QByteArray@Base 4:15.12
- _ZN10MailCommon14FolderTreeView19prefereCreateNewTabEb@Base 4:15.12
  _ZN10MailCommon14FolderTreeView19slotFocusLastFolderEv@Base 4:15.12
  _ZN10MailCommon14FolderTreeView19slotFocusNextFolderEv@Base 4:15.12
  _ZN10MailCommon14FolderTreeView19slotFocusPrevFolderEv@Base 4:15.12
@@ -284,27 +313,6 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon16FilterActionDictD0Ev@Base 4:15.12
  _ZN10MailCommon16FilterActionDictD1Ev@Base 4:15.12
  _ZN10MailCommon16FilterActionDictD2Ev@Base 4:15.12
- _ZN10MailCommon16FolderCollection10clearCacheEv@Base 4:15.12
- _ZN10MailCommon16FolderCollection10readConfigEv@Base 4:15.12
- _ZN10MailCommon16FolderCollection11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN10MailCommon16FolderCollection11qt_metacastEPKc@Base 4:15.12
- _ZN10MailCommon16FolderCollection11setIdentityEj@Base 4:15.12
- _ZN10MailCommon16FolderCollection11setShortcutERK12QKeySequence@Base 4:15.12
- _ZN10MailCommon16FolderCollection13forCollectionERKN7Akonadi10CollectionEb@Base 4:15.12
- _ZN10MailCommon16FolderCollection13setCollectionERKN7Akonadi10CollectionE@Base 4:15.12
- _ZN10MailCommon16FolderCollection14setMailingListERKN11MessageCore11MailingListE@Base 4:15.12
- _ZN10MailCommon16FolderCollection14setWriteConfigEb@Base 4:15.12
- _ZN10MailCommon16FolderCollection15configGroupNameERKN7Akonadi10CollectionE@Base 4:15.12
- _ZN10MailCommon16FolderCollection16setFormatMessageEN13MessageViewer6Viewer20DisplayFormatMessageE@Base 4:16.04.2
- _ZN10MailCommon16FolderCollection16staticMetaObjectE@Base 4:15.12
- _ZN10MailCommon16FolderCollection21setMailingListEnabledEb@Base 4:15.12
- _ZN10MailCommon16FolderCollection21setUseDefaultIdentityEb@Base 4:15.12
- _ZN10MailCommon16FolderCollection21slotIdentitiesChangedEv@Base 4:15.12
- _ZN10MailCommon16FolderCollectionC1ERKN7Akonadi10CollectionEb@Base 4:15.12
- _ZN10MailCommon16FolderCollectionC2ERKN7Akonadi10CollectionEb@Base 4:15.12
- _ZN10MailCommon16FolderCollectionD0Ev@Base 4:15.12
- _ZN10MailCommon16FolderCollectionD1Ev@Base 4:15.12
- _ZN10MailCommon16FolderCollectionD2Ev@Base 4:15.12
  _ZN10MailCommon16FolderTreeWidget10readConfigEv@Base 4:15.12
  _ZN10MailCommon16FolderTreeWidget11applyFilterERK7QString@Base 4:15.12
  _ZN10MailCommon16FolderTreeWidget11clearFilterEv@Base 4:15.12
@@ -334,17 +342,6 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon16SearchRuleStatusC1ERK10QByteArrayNS_10SearchRule8FunctionERK7QString@Base 4:15.12
  _ZN10MailCommon16SearchRuleStatusC2EN7Akonadi13MessageStatusENS_10SearchRule8FunctionE@Base 4:15.12
  _ZN10MailCommon16SearchRuleStatusC2ERK10QByteArrayNS_10SearchRule8FunctionERK7QString@Base 4:15.12
- _ZN10MailCommon17ContentTypeWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN10MailCommon17ContentTypeWidget11qt_metacastEPKc@Base 4:15.12
- _ZN10MailCommon17ContentTypeWidget14setCurrentItemERK7QString@Base 4:15.12
- _ZN10MailCommon17ContentTypeWidget15setCurrentIndexEi@Base 4:15.12
- _ZN10MailCommon17ContentTypeWidget16staticMetaObjectE@Base 4:15.12
- _ZN10MailCommon17ContentTypeWidget9activatedEi@Base 4:15.12
- _ZN10MailCommon17ContentTypeWidgetC1EP7QWidget@Base 4:15.12
- _ZN10MailCommon17ContentTypeWidgetC2EP7QWidget@Base 4:15.12
- _ZN10MailCommon17ContentTypeWidgetD0Ev@Base 4:15.12
- _ZN10MailCommon17ContentTypeWidgetD1Ev@Base 4:15.12
- _ZN10MailCommon17ContentTypeWidgetD2Ev@Base 4:15.12
  _ZN10MailCommon17InvalidFilterInfo14setInformationERK7QString@Base 4:15.12
  _ZN10MailCommon17InvalidFilterInfo7setNameERK7QString@Base 4:15.12
  _ZN10MailCommon17InvalidFilterInfoC1ERK7QStringS3_@Base 4:15.12
@@ -352,11 +349,11 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon17InvalidFilterInfoC2ERK7QStringS3_@Base 4:15.12
  _ZN10MailCommon17InvalidFilterInfoC2Ev@Base 4:15.12
  _ZN10MailCommon17MDNStateAttribute11deserializeERK10QByteArray@Base 4:15.12
- _ZN10MailCommon17MDNStateAttribute11setMDNStateERKNS0_12MDNSentStateE@Base 4:15.12
+ _ZN10MailCommon17MDNStateAttribute11setMDNStateENS0_12MDNSentStateE@Base 4:17.08.0
+ _ZN10MailCommon17MDNStateAttributeC1ENS0_12MDNSentStateE@Base 4:17.08.0
  _ZN10MailCommon17MDNStateAttributeC1ERK10QByteArray@Base 4:15.12
- _ZN10MailCommon17MDNStateAttributeC1ERKNS0_12MDNSentStateE@Base 4:15.12
+ _ZN10MailCommon17MDNStateAttributeC2ENS0_12MDNSentStateE@Base 4:17.08.0
  _ZN10MailCommon17MDNStateAttributeC2ERK10QByteArray@Base 4:15.12
- _ZN10MailCommon17MDNStateAttributeC2ERKNS0_12MDNSentStateE@Base 4:15.12
  _ZN10MailCommon17MDNStateAttributeD0Ev@Base 4:15.12
  _ZN10MailCommon17MDNStateAttributeD1Ev@Base 4:15.12
  _ZN10MailCommon17MDNStateAttributeD2Ev@Base 4:15.12
@@ -379,21 +376,6 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon17SearchPatternEditD0Ev@Base 4:15.12
  _ZN10MailCommon17SearchPatternEditD1Ev@Base 4:15.12
  _ZN10MailCommon17SearchPatternEditD2Ev@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtil15kolabFolderTypeEv@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtil15kolabSharedSeenEv@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtil17kolabNameFromTypeENS0_18FolderContentsTypeE@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtil17typeFromKolabNameERK10QByteArray@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtil18kolabIncidencesForEv@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtil21incidencesForToStringENS0_13IncidencesForE@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtil21typeNameFromKolabTypeERK10QByteArray@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtil22contentsTypeFromStringERK7QString@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtil23incidencesForFromStringERK7QString@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtil24folderContentDescriptionENS0_18FolderContentsTypeE@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtil24iconNameFromContentsTypeENS0_18FolderContentsTypeE@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtilC1Ev@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtilC2Ev@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtilD1Ev@Base 4:15.12
- _ZN10MailCommon18CollectionTypeUtilD2Ev@Base 4:15.12
  _ZN10MailCommon18MailCommonSettings4selfEv@Base 4:15.12
  _ZN10MailCommon18MailCommonSettingsC1Ev@Base 4:15.12
  _ZN10MailCommon18MailCommonSettingsC2Ev@Base 4:15.12
@@ -407,16 +389,6 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon19FilterImporterGmailC2EP5QFile@Base 4:15.12
  _ZN10MailCommon19FilterImporterGmailD1Ev@Base 4:15.12
  _ZN10MailCommon19FilterImporterGmailD2Ev@Base 4:15.12
- _ZN10MailCommon19IncidencesForWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
- _ZN10MailCommon19IncidencesForWidget11qt_metacastEPKc@Base 4:15.12
- _ZN10MailCommon19IncidencesForWidget15setCurrentIndexEi@Base 4:15.12
- _ZN10MailCommon19IncidencesForWidget16staticMetaObjectE@Base 4:15.12
- _ZN10MailCommon19IncidencesForWidget19currentIndexChangedEi@Base 4:15.12
- _ZN10MailCommon19IncidencesForWidgetC1EP7QWidget@Base 4:15.12
- _ZN10MailCommon19IncidencesForWidgetC2EP7QWidget@Base 4:15.12
- _ZN10MailCommon19IncidencesForWidgetD0Ev@Base 4:15.12
- _ZN10MailCommon19IncidencesForWidgetD1Ev@Base 4:15.12
- _ZN10MailCommon19IncidencesForWidgetD2Ev@Base 4:15.12
  _ZN10MailCommon19InvalidFilterDialog10readConfigEv@Base 4:15.12
  _ZN10MailCommon19InvalidFilterDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN10MailCommon19InvalidFilterDialog11qt_metacastEPKc@Base 4:15.12
@@ -439,6 +411,18 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon19InvalidFilterWidgetD0Ev@Base 4:15.12
  _ZN10MailCommon19InvalidFilterWidgetD1Ev@Base 4:15.12
  _ZN10MailCommon19InvalidFilterWidgetD2Ev@Base 4:15.12
+ _ZN10MailCommon19KMFilterAccountList11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN10MailCommon19KMFilterAccountList11qt_metacastEPKc@Base 4:17.08.0
+ _ZN10MailCommon19KMFilterAccountList14applyOnAccountEPNS_10MailFilterE@Base 4:17.08.0
+ _ZN10MailCommon19KMFilterAccountList14applyOnAccountERK11QStringList@Base 4:17.08.0
+ _ZN10MailCommon19KMFilterAccountList15selectedAccountEv@Base 4:17.08.0
+ _ZN10MailCommon19KMFilterAccountList16staticMetaObjectE@Base 4:17.08.0
+ _ZN10MailCommon19KMFilterAccountList17updateAccountListEPNS_10MailFilterE@Base 4:17.08.0
+ _ZN10MailCommon19KMFilterAccountListC1EP7QWidget@Base 4:17.08.0
+ _ZN10MailCommon19KMFilterAccountListC2EP7QWidget@Base 4:17.08.0
+ _ZN10MailCommon19KMFilterAccountListD0Ev@Base 4:17.08.0
+ _ZN10MailCommon19KMFilterAccountListD1Ev@Base 4:17.08.0
+ _ZN10MailCommon19KMFilterAccountListD2Ev@Base 4:17.08.0
  _ZN10MailCommon20CollectionExpiryPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN10MailCommon20CollectionExpiryPage11qt_metacastEPKc@Base 4:15.12
  _ZN10MailCommon20CollectionExpiryPage11slotChangedEv@Base 4:15.12
@@ -519,6 +503,10 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon22FilterImporterExporterD0Ev@Base 4:15.12
  _ZN10MailCommon22FilterImporterExporterD1Ev@Base 4:15.12
  _ZN10MailCommon22FilterImporterExporterD2Ev@Base 4:15.12
+ _ZN10MailCommon22ResourceReadConfigFileC1ERK7QString@Base 4:17.08.0
+ _ZN10MailCommon22ResourceReadConfigFileC2ERK7QString@Base 4:17.08.0
+ _ZN10MailCommon22ResourceReadConfigFileD1Ev@Base 4:17.08.0
+ _ZN10MailCommon22ResourceReadConfigFileD2Ev@Base 4:17.08.0
  _ZN10MailCommon23FolderCollectionMonitor11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN10MailCommon23FolderCollectionMonitor11qt_metacastEPKc@Base 4:15.12
  _ZN10MailCommon23FolderCollectionMonitor13slotDeleteJobEP4KJob@Base 4:15.12
@@ -564,6 +552,8 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon24FavoriteCollectionWidget11qt_metacastEPKc@Base 4:15.12
  _ZN10MailCommon24FavoriteCollectionWidget14changeViewModeEN9QListView8ViewModeE@Base 4:15.12
  _ZN10MailCommon24FavoriteCollectionWidget14slotChangeModeEb@Base 4:15.12
+ _ZN10MailCommon24FavoriteCollectionWidget15mousePressEventEP11QMouseEvent@Base 4:17.08.0
+ _ZN10MailCommon24FavoriteCollectionWidget15newTabRequestedEb@Base 4:17.08.0
  _ZN10MailCommon24FavoriteCollectionWidget16staticMetaObjectE@Base 4:15.12
  _ZN10MailCommon24FavoriteCollectionWidget18slotChangeIconSizeEb@Base 4:15.12
  _ZN10MailCommon24FavoriteCollectionWidget22slotGeneralFontChangedEv@Base 4:15.12
@@ -626,6 +616,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon25FilterImporterThunderbird15splitConditionsERK7QStringPNS_10MailFilterE@Base 4:15.12
  _ZN10MailCommon25FilterImporterThunderbird17extractConditionsERK7QStringPNS_10MailFilterE@Base 4:15.12
  _ZN10MailCommon25FilterImporterThunderbird33defaultIcedoveFiltersSettingsPathEv@Base 4:15.12
+ _ZN10MailCommon25FilterImporterThunderbird35defaultSeaMonkeyFiltersSettingsPathEv@Base 4:17.08.0
  _ZN10MailCommon25FilterImporterThunderbird37defaultThunderbirdFiltersSettingsPathEv@Base 4:15.12
  _ZN10MailCommon25FilterImporterThunderbird9parseLineER11QTextStream7QStringPNS_10MailFilterE@Base 4:15.12
  _ZN10MailCommon25FilterImporterThunderbirdC1E7QStringb@Base 4:15.12
@@ -634,17 +625,23 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon25FilterImporterThunderbirdC2EP5QFileb@Base 4:15.12
  _ZN10MailCommon25FilterImporterThunderbirdD1Ev@Base 4:15.12
  _ZN10MailCommon25FilterImporterThunderbirdD2Ev@Base 4:15.12
- _ZN10MailCommon30CollectionAnnotationsAttribute11deserializeERK10QByteArray@Base 4:15.12
- _ZN10MailCommon30CollectionAnnotationsAttribute14setAnnotationsERK4QMapI10QByteArrayS2_E@Base 4:15.12
- _ZN10MailCommon30CollectionAnnotationsAttributeC1ERK4QMapI10QByteArrayS2_E@Base 4:15.12
- _ZN10MailCommon30CollectionAnnotationsAttributeC1Ev@Base 4:15.12
- _ZN10MailCommon30CollectionAnnotationsAttributeC2ERK4QMapI10QByteArrayS2_E@Base 4:15.12
- _ZN10MailCommon30CollectionAnnotationsAttributeC2Ev@Base 4:15.12
- _ZN10MailCommon3Tag11compareNameER14QSharedPointerIS0_ES3_@Base 4:15.12
+ _ZN10MailCommon31EntityCollectionOrderProxyModel10clearRanksEv@Base 4:17.08.0
+ _ZN10MailCommon31EntityCollectionOrderProxyModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN10MailCommon31EntityCollectionOrderProxyModel11qt_metacastEPKc@Base 4:17.08.0
+ _ZN10MailCommon31EntityCollectionOrderProxyModel16setTopLevelOrderERK11QStringList@Base 4:17.08.0
+ _ZN10MailCommon31EntityCollectionOrderProxyModel16staticMetaObjectE@Base 4:17.08.0
+ _ZN10MailCommon31EntityCollectionOrderProxyModel22setManualSortingActiveEb@Base 4:17.08.0
+ _ZN10MailCommon31EntityCollectionOrderProxyModel29slotSpecialCollectionsChangedEv@Base 4:17.08.0
+ _ZN10MailCommon31EntityCollectionOrderProxyModelC1EP7QObject@Base 4:17.08.0
+ _ZN10MailCommon31EntityCollectionOrderProxyModelC2EP7QObject@Base 4:17.08.0
+ _ZN10MailCommon31EntityCollectionOrderProxyModelD0Ev@Base 4:17.08.0
+ _ZN10MailCommon31EntityCollectionOrderProxyModelD1Ev@Base 4:17.08.0
+ _ZN10MailCommon31EntityCollectionOrderProxyModelD2Ev@Base 4:17.08.0
+ _ZN10MailCommon3Tag11compareNameERK14QSharedPointerIS0_ES4_@Base 4:17.08.0
  _ZN10MailCommon3Tag11fromAkonadiERKN7Akonadi3TagE@Base 4:15.12
  _ZN10MailCommon3Tag16createDefaultTagERK7QString@Base 4:15.12
  _ZN10MailCommon3Tag16staticMetaObjectE@Base 4:15.12
- _ZN10MailCommon3Tag7compareER14QSharedPointerIS0_ES3_@Base 4:15.12
+ _ZN10MailCommon3Tag7compareERK14QSharedPointerIS0_ES4_@Base 4:17.08.0
  _ZN10MailCommon4Util11foundMailerEv@Base 4:15.12
  _ZN10MailCommon4Util14agentInstancesEb@Base 4:15.12
  _ZN10MailCommon4Util14folderIdentityERKN7Akonadi4ItemE@Base 4:15.12
@@ -666,7 +663,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon6Kernel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12
  _ZN10MailCommon6Kernel11qt_metacastEPKc@Base 4:15.12
  _ZN10MailCommon6Kernel13emergencyExitERK7QString@Base 4:15.12
- _ZN10MailCommon6Kernel13folderIsInboxERKN7Akonadi10CollectionEb@Base 4:15.12
+ _ZN10MailCommon6Kernel13folderIsInboxERKN7Akonadi10CollectionE@Base 4:17.08.0
  _ZN10MailCommon6Kernel13folderIsTrashERKN7Akonadi10CollectionE@Base 4:15.12
  _ZN10MailCommon6Kernel14folderIsDraftsERKN7Akonadi10CollectionE@Base 4:15.12
  _ZN10MailCommon6Kernel16registerFilterIfEPNS_7IFilterE@Base 4:15.12
@@ -689,6 +686,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon6Kernel27createDefaultCollectionDoneEP4KJob@Base 4:15.12
  _ZN10MailCommon6Kernel27findCreateDefaultCollectionEN7Akonadi22SpecialMailCollections4TypeE@Base 4:15.12
  _ZN10MailCommon6Kernel27trashCollectionFromResourceERKN7Akonadi10CollectionE@Base 4:15.12
+ _ZN10MailCommon6Kernel28pop3ResourceTargetCollectionEv@Base 4:17.08.0
  _ZN10MailCommon6Kernel29slotDefaultCollectionsChangedEv@Base 4:15.12
  _ZN10MailCommon6Kernel4selfEv@Base 4:15.12
  _ZN10MailCommon6KernelC1EP7QObject@Base 4:15.12
@@ -774,7 +772,6 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon9TagWidgetD2Ev@Base 4:15.12
  _ZN10MailCommonlsER11QDataStreamRKNS_10MailFilterE@Base 4:15.12
  _ZN10MailCommonrsER11QDataStreamRNS_10MailFilterE@Base 4:15.12
- (optional=templinst)_ZN12KConfigGroup10writeEntryI5QSizeEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.12
  (optional=templinst)_ZN12KConfigGroup10writeEntryIbEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.12
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4:15.12
  _ZN35FilterActionMissingCollectionDialog10readConfigEv@Base 4:15.12
@@ -792,10 +789,6 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN35FilterActionMissingCollectionDialogD0Ev@Base 4:15.12
  _ZN35FilterActionMissingCollectionDialogD1Ev@Base 4:15.12
  _ZN35FilterActionMissingCollectionDialogD2Ev@Base 4:15.12
- _ZN9PimCommon22ResourceReadConfigFileC1ERK7QString@Base 4:15.12
- _ZN9PimCommon22ResourceReadConfigFileC2ERK7QString@Base 4:15.12
- _ZN9PimCommon22ResourceReadConfigFileD1Ev@Base 4:15.12
- _ZN9PimCommon22ResourceReadConfigFileD2Ev@Base 4:15.12
  _ZNK10MailCommon10MailFilter10identifierEv@Base 4:15.12
  _ZNK10MailCommon10MailFilter11execActionsERNS_11ItemContextERbb@Base 4:15.12
  _ZNK10MailCommon10MailFilter11toolbarNameEv@Base 4:15.12
@@ -864,6 +857,29 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZNK10MailCommon13SearchPattern8asStringEv@Base 4:15.12
  _ZNK10MailCommon13SearchPattern9serializeEv@Base 4:15.12
  _ZNK10MailCommon13SearchPatternrsER11QDataStream@Base 4:15.12
+ _ZNK10MailCommon14FolderSettings10isReadOnlyEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings10metaObjectEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings10statisticsEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings11mailingListEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings11writeConfigEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings12isStructuralEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings13formatMessageEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings13isWriteConfigEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings14isSystemFolderEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings16fallBackIdentityEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings17canCreateMessagesEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings17canDeleteMessagesEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings18useDefaultIdentityEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings20isMailingListEnabledEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings21hideInSelectionDialogEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings22mailingListPostAddressEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings22putRepliesInSameFolderEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings4nameEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings5countEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings6rightsEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings7isValidEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings8identityEv@Base 4:17.08.0
+ _ZNK10MailCommon14FolderSettings8shortcutEv@Base 4:17.08.0
  _ZNK10MailCommon14FolderTreeView10metaObjectEv@Base 4:15.12
  _ZNK10MailCommon14FolderTreeView13currentFolderEv@Base 4:15.12
  _ZNK10MailCommon14FolderTreeView18ignoreUnreadFolderERKN7Akonadi10CollectionEb@Base 4:15.12
@@ -895,24 +911,6 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZNK10MailCommon15SnippetsManager24deleteSnippetGroupActionEv@Base 4:15.12
  _ZNK10MailCommon15SnippetsManager5modelEv@Base 4:15.12
  _ZNK10MailCommon16FilterActionDict4listEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection10collectionEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection10isReadOnlyEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection10metaObjectEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection10statisticsEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection11writeConfigEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection12isStructuralEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection13formatMessageEv@Base 4:16.04.2
- _ZNK10MailCommon16FolderCollection13isWriteConfigEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection14isSystemFolderEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection16fallBackIdentityEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection17canCreateMessagesEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection17canDeleteMessagesEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection22mailingListPostAddressEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection4nameEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection5countEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection6rightsEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection7isValidEv@Base 4:15.12
- _ZNK10MailCommon16FolderCollection8identityEv@Base 4:15.12
  _ZNK10MailCommon16FolderTreeWidget10metaObjectEv@Base 4:15.12
  _ZNK10MailCommon16FolderTreeWidget12currentIndexEv@Base 4:15.12
  _ZNK10MailCommon16FolderTreeWidget13selectionModeEv@Base 4:15.12
@@ -929,9 +927,6 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZNK10MailCommon16SearchRuleStatus29informationAboutNotValidRulesEv@Base 4:15.12
  _ZNK10MailCommon16SearchRuleStatus7isEmptyEv@Base 4:15.12
  _ZNK10MailCommon16SearchRuleStatus7matchesERKN7Akonadi4ItemE@Base 4:15.12
- _ZNK10MailCommon17ContentTypeWidget10metaObjectEv@Base 4:15.12
- _ZNK10MailCommon17ContentTypeWidget11currentTextEv@Base 4:15.12
- _ZNK10MailCommon17ContentTypeWidget12currentIndexEv@Base 4:15.12
  _ZNK10MailCommon17InvalidFilterInfo11informationEv@Base 4:15.12
  _ZNK10MailCommon17InvalidFilterInfo4nameEv@Base 4:15.12
  _ZNK10MailCommon17InvalidFilterInfoeqERKS0_@Base 4:15.12
@@ -941,10 +936,9 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZNK10MailCommon17MDNStateAttribute8mdnStateEv@Base 4:15.12
  _ZNK10MailCommon17MDNStateAttributeeqERKS0_@Base 4:15.12
  _ZNK10MailCommon17SearchPatternEdit10metaObjectEv@Base 4:15.12
- _ZNK10MailCommon19IncidencesForWidget10metaObjectEv@Base 4:15.12
- _ZNK10MailCommon19IncidencesForWidget12currentIndexEv@Base 4:15.12
  _ZNK10MailCommon19InvalidFilterDialog10metaObjectEv@Base 4:15.12
  _ZNK10MailCommon19InvalidFilterWidget10metaObjectEv@Base 4:15.12
+ _ZNK10MailCommon19KMFilterAccountList10metaObjectEv@Base 4:17.08.0
  _ZNK10MailCommon20CollectionExpiryPage10metaObjectEv@Base 4:15.12
  _ZNK10MailCommon20CollectionExpiryPage9canHandleERKN7Akonadi10CollectionE@Base 4:15.12
  _ZNK10MailCommon21CollectionGeneralPage10metaObjectEv@Base 4:15.12
@@ -955,6 +949,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZNK10MailCommon21InvalidFilterListView10metaObjectEv@Base 4:15.12
  _ZNK10MailCommon22FilterImporterAbstract11emptyFilterEv@Base 4:15.12
  _ZNK10MailCommon22FilterImporterAbstract12importFilterEv@Base 4:15.12
+ _ZNK10MailCommon22ResourceReadConfigFile5groupERK7QString@Base 4:17.08.0
  _ZNK10MailCommon23FolderCollectionMonitor10metaObjectEv@Base 4:15.12
  _ZNK10MailCommon23FolderCollectionMonitor7monitorEv@Base 4:15.12
  _ZNK10MailCommon23InvalidFilterInfoWidget10metaObjectEv@Base 4:15.12
@@ -972,11 +967,9 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZNK10MailCommon25ExpireCollectionAttribute4typeEv@Base 4:15.12
  _ZNK10MailCommon25ExpireCollectionAttribute5cloneEv@Base 4:15.12
  _ZNK10MailCommon25ExpireCollectionAttributeeqERKS0_@Base 4:15.12
- _ZNK10MailCommon30CollectionAnnotationsAttribute10serializedEv@Base 4:15.12
- _ZNK10MailCommon30CollectionAnnotationsAttribute11annotationsEv@Base 4:15.12
- _ZNK10MailCommon30CollectionAnnotationsAttribute4typeEv@Base 4:15.12
- _ZNK10MailCommon30CollectionAnnotationsAttribute5cloneEv@Base 4:15.12
- _ZNK10MailCommon30CollectionAnnotationsAttributeeqERKS0_@Base 4:15.12
+ _ZNK10MailCommon31EntityCollectionOrderProxyModel10metaObjectEv@Base 4:17.08.0
+ _ZNK10MailCommon31EntityCollectionOrderProxyModel21isManualSortingActiveEv@Base 4:17.08.0
+ _ZNK10MailCommon31EntityCollectionOrderProxyModel8lessThanERK11QModelIndexS3_@Base 4:17.08.0
  _ZNK10MailCommon3Tag13saveToAkonadiE6QFlagsINS0_8SaveFlagEE@Base 4:15.12
  _ZNK10MailCommon3Tag2idEv@Base 4:15.12
  _ZNK10MailCommon3Tag3tagEv@Base 4:15.12
@@ -1016,18 +1009,23 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZNK10MailCommon9TagWidget17keySequenceWidgetEv@Base 4:15.12
  _ZNK10MailCommon9TagWidget20backgroundColorCheckEv@Base 4:15.12
  _ZNK10MailCommon9TagWidget20backgroundColorComboEv@Base 4:15.12
- (optional=templinst)_ZNK12KConfigGroup9readEntryI5QFontEET_PKcRKS2_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.12
- (optional=templinst|arch=!arm64)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4:15.12
  _ZNK35FilterActionMissingCollectionDialog10metaObjectEv@Base 4:15.12
  _ZNK35FilterActionMissingCollectionDialog18selectedCollectionEv@Base 4:15.12
+ (optional=templinst)_ZNK7Akonadi10Collection9attributeIN9PimCommon30CollectionAnnotationsAttributeEEEPT_v@Base 4:17.08.0
+ (optional=templinst)_ZNK7Akonadi4Item10hasPayloadI14QSharedPointerIN5KMime7MessageEEEEbv@Base 4:17.08.0
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplI14QSharedPointerIN5KMime7MessageEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES9_E4typeEv@Base 4:15.12
  (optional=templinst)_ZNK7Akonadi4Item14hasPayloadImplI14QSharedPointerIN5KMime7MessageEEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 4:15.12
  (optional=templinst)_ZNK7Akonadi4Item14tryToCloneImplI14QSharedPointerIN5KMime7MessageEESt10shared_ptrIS4_EEENSt9enable_ifIXntsrSt7is_sameIT_T0_E5valueEbE4typeEPSA_PKi@Base 4:15.12
- _ZNK9PimCommon22ResourceReadConfigFile5groupERK7QString@Base 4:15.12
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 4:17.08.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIPN10MailCommon16SearchRuleStatusELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4:17.08.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIPN10MailCommon16SearchRuleStatusELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 4:17.08.0
+ (optional=templinst)_ZNSt15_Sp_counted_ptrIPN10MailCommon16SearchRuleStatusELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info@Base 4:17.08.0
+ (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4:17.08.0
+ (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 4:17.08.0
  _ZTI35FilterActionMissingCollectionDialog@Base 4:15.12
  _ZTIN10MailCommon10SearchRuleE@Base 4:15.12
  _ZTIN10MailCommon12AddTagDialogE@Base 4:15.12
@@ -1036,6 +1034,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZTIN10MailCommon12ScheduledJobE@Base 4:15.12
  _ZTIN10MailCommon13FilterManagerE@Base 4:15.12
  _ZTIN10MailCommon13ScheduledTaskE@Base 4:15.12
+ _ZTIN10MailCommon14FolderSettingsE@Base 4:17.08.0
  _ZTIN10MailCommon14FolderTreeViewE@Base 4:15.12
  _ZTIN10MailCommon14KMFilterDialogE@Base 4:15.12
  _ZTIN10MailCommon14RedirectDialogE@Base 4:15.12
@@ -1043,16 +1042,14 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZTIN10MailCommon15FolderRequesterE@Base 4:15.12
  _ZTIN10MailCommon15MDNAdviceDialogE@Base 4:15.12
  _ZTIN10MailCommon15SnippetsManagerE@Base 4:15.12
- _ZTIN10MailCommon16FolderCollectionE@Base 4:15.12
  _ZTIN10MailCommon16FolderTreeWidgetE@Base 4:15.12
  _ZTIN10MailCommon16SearchRuleStatusE@Base 4:15.12
- _ZTIN10MailCommon17ContentTypeWidgetE@Base 4:15.12
  _ZTIN10MailCommon17MDNStateAttributeE@Base 4:15.12
  _ZTIN10MailCommon17SearchPatternEditE@Base 4:15.12
  _ZTIN10MailCommon18MailCommonSettingsE@Base 4:15.12
- _ZTIN10MailCommon19IncidencesForWidgetE@Base 4:15.12
  _ZTIN10MailCommon19InvalidFilterDialogE@Base 4:15.12
  _ZTIN10MailCommon19InvalidFilterWidgetE@Base 4:15.12
+ _ZTIN10MailCommon19KMFilterAccountListE@Base 4:17.08.0
  _ZTIN10MailCommon20CollectionExpiryPageE@Base 4:15.12
  _ZTIN10MailCommon21CollectionGeneralPageE@Base 4:15.12
  _ZTIN10MailCommon21FolderSelectionDialogE@Base 4:15.12
@@ -1064,12 +1061,15 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZTIN10MailCommon24FavoriteCollectionWidgetE@Base 4:15.12
  _ZTIN10MailCommon24FilterActionWidgetListerE@Base 4:15.12
  _ZTIN10MailCommon25ExpireCollectionAttributeE@Base 4:15.12
- _ZTIN10MailCommon30CollectionAnnotationsAttributeE@Base 4:15.12
+ _ZTIN10MailCommon31EntityCollectionOrderProxyModelE@Base 4:17.08.0
  _ZTIN10MailCommon6KernelE@Base 4:15.12
  _ZTIN10MailCommon9BackupJobE@Base 4:15.12
  _ZTIN10MailCommon9FilterLogE@Base 4:15.12
  _ZTIN10MailCommon9FolderJobE@Base 4:15.12
  _ZTIN10MailCommon9TagWidgetE@Base 4:15.12
+ _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ _ZTISt15_Sp_counted_ptrIPN10MailCommon16SearchRuleStatusELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
  _ZTS35FilterActionMissingCollectionDialog@Base 4:15.12
  _ZTSN10MailCommon10SearchRuleE@Base 4:15.12
  _ZTSN10MailCommon12AddTagDialogE@Base 4:15.12
@@ -1078,6 +1078,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZTSN10MailCommon12ScheduledJobE@Base 4:15.12
  _ZTSN10MailCommon13FilterManagerE@Base 4:15.12
  _ZTSN10MailCommon13ScheduledTaskE@Base 4:15.12
+ _ZTSN10MailCommon14FolderSettingsE@Base 4:17.08.0
  _ZTSN10MailCommon14FolderTreeViewE@Base 4:15.12
  _ZTSN10MailCommon14KMFilterDialogE@Base 4:15.12
  _ZTSN10MailCommon14RedirectDialogE@Base 4:15.12
@@ -1085,16 +1086,14 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZTSN10MailCommon15FolderRequesterE@Base 4:15.12
  _ZTSN10MailCommon15MDNAdviceDialogE@Base 4:15.12
  _ZTSN10MailCommon15SnippetsManagerE@Base 4:15.12
- _ZTSN10MailCommon16FolderCollectionE@Base 4:15.12
  _ZTSN10MailCommon16FolderTreeWidgetE@Base 4:15.12
  _ZTSN10MailCommon16SearchRuleStatusE@Base 4:15.12
- _ZTSN10MailCommon17ContentTypeWidgetE@Base 4:15.12
  _ZTSN10MailCommon17MDNStateAttributeE@Base 4:15.12
  _ZTSN10MailCommon17SearchPatternEditE@Base 4:15.12
  _ZTSN10MailCommon18MailCommonSettingsE@Base 4:15.12
- _ZTSN10MailCommon19IncidencesForWidgetE@Base 4:15.12
  _ZTSN10MailCommon19InvalidFilterDialogE@Base 4:15.12
  _ZTSN10MailCommon19InvalidFilterWidgetE@Base 4:15.12
+ _ZTSN10MailCommon19KMFilterAccountListE@Base 4:17.08.0
  _ZTSN10MailCommon20CollectionExpiryPageE@Base 4:15.12
  _ZTSN10MailCommon21CollectionGeneralPageE@Base 4:15.12
  _ZTSN10MailCommon21FolderSelectionDialogE@Base 4:15.12
@@ -1106,12 +1105,15 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZTSN10MailCommon24FavoriteCollectionWidgetE@Base 4:15.12
  _ZTSN10MailCommon24FilterActionWidgetListerE@Base 4:15.12
  _ZTSN10MailCommon25ExpireCollectionAttributeE@Base 4:15.12
- _ZTSN10MailCommon30CollectionAnnotationsAttributeE@Base 4:15.12
+ _ZTSN10MailCommon31EntityCollectionOrderProxyModelE@Base 4:17.08.0
  _ZTSN10MailCommon6KernelE@Base 4:15.12
  _ZTSN10MailCommon9BackupJobE@Base 4:15.12
  _ZTSN10MailCommon9FilterLogE@Base 4:15.12
  _ZTSN10MailCommon9FolderJobE@Base 4:15.12
  _ZTSN10MailCommon9TagWidgetE@Base 4:15.12
+ _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ _ZTSSt15_Sp_counted_ptrIPN10MailCommon16SearchRuleStatusELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
+ _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
  _ZTV35FilterActionMissingCollectionDialog@Base 4:15.12
  _ZTVN10MailCommon10SearchRuleE@Base 4:15.12
  _ZTVN10MailCommon12AddTagDialogE@Base 4:15.12
@@ -1120,6 +1122,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZTVN10MailCommon12ScheduledJobE@Base 4:15.12
  _ZTVN10MailCommon13FilterManagerE@Base 4:15.12
  _ZTVN10MailCommon13ScheduledTaskE@Base 4:15.12
+ _ZTVN10MailCommon14FolderSettingsE@Base 4:17.08.0
  _ZTVN10MailCommon14FolderTreeViewE@Base 4:15.12
  _ZTVN10MailCommon14KMFilterDialogE@Base 4:15.12
  _ZTVN10MailCommon14RedirectDialogE@Base 4:15.12
@@ -1127,16 +1130,14 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZTVN10MailCommon15FolderRequesterE@Base 4:15.12
  _ZTVN10MailCommon15MDNAdviceDialogE@Base 4:15.12
  _ZTVN10MailCommon15SnippetsManagerE@Base 4:15.12
- _ZTVN10MailCommon16FolderCollectionE@Base 4:15.12
  _ZTVN10MailCommon16FolderTreeWidgetE@Base 4:15.12
  _ZTVN10MailCommon16SearchRuleStatusE@Base 4:15.12
- _ZTVN10MailCommon17ContentTypeWidgetE@Base 4:15.12
  _ZTVN10MailCommon17MDNStateAttributeE@Base 4:15.12
  _ZTVN10MailCommon17SearchPatternEditE@Base 4:15.12
  _ZTVN10MailCommon18MailCommonSettingsE@Base 4:15.12
- _ZTVN10MailCommon19IncidencesForWidgetE@Base 4:15.12
  _ZTVN10MailCommon19InvalidFilterDialogE@Base 4:15.12
  _ZTVN10MailCommon19InvalidFilterWidgetE@Base 4:15.12
+ _ZTVN10MailCommon19KMFilterAccountListE@Base 4:17.08.0
  _ZTVN10MailCommon20CollectionExpiryPageE@Base 4:15.12
  _ZTVN10MailCommon21CollectionGeneralPageE@Base 4:15.12
  _ZTVN10MailCommon21FolderSelectionDialogE@Base 4:15.12
@@ -1148,12 +1149,13 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZTVN10MailCommon24FavoriteCollectionWidgetE@Base 4:15.12
  _ZTVN10MailCommon24FilterActionWidgetListerE@Base 4:15.12
  _ZTVN10MailCommon25ExpireCollectionAttributeE@Base 4:15.12
- _ZTVN10MailCommon30CollectionAnnotationsAttributeE@Base 4:15.12
+ _ZTVN10MailCommon31EntityCollectionOrderProxyModelE@Base 4:17.08.0
  _ZTVN10MailCommon6KernelE@Base 4:15.12
  _ZTVN10MailCommon9BackupJobE@Base 4:15.12
  _ZTVN10MailCommon9FilterLogE@Base 4:15.12
  _ZTVN10MailCommon9FolderJobE@Base 4:15.12
  _ZTVN10MailCommon9TagWidgetE@Base 4:15.12
+ _ZTVSt15_Sp_counted_ptrIPN10MailCommon16SearchRuleStatusELN9__gnu_cxx12_Lock_policyE2EE@Base 4:17.08.0
  _ZZZN10MailCommon18MailCommonSettings11setIconSizeEiENKUlvE_clEvE15qstring_literal@Base 4:15.12
  _ZZZN10MailCommon18MailCommonSettings21setEnableAccountOrderEbENKUlvE_clEvE15qstring_literal@Base 4:15.12
  _ZZZN10MailCommon18MailCommonSettings29setFavoriteCollectionViewModeEiENKUlvE_clEvE15qstring_literal@Base 4:15.12
@@ -1163,18 +1165,17 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  (c++)"non-virtual thunk to MailCommon::AddTagDialog::~AddTagDialog()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::CollectionExpiryPage::~CollectionExpiryPage()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::CollectionGeneralPage::~CollectionGeneralPage()@Base" 4:15.12
- (c++)"non-virtual thunk to MailCommon::ContentTypeWidget::~ContentTypeWidget()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::FavoriteCollectionWidget::~FavoriteCollectionWidget()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::FilterActionWidgetLister::~FilterActionWidgetLister()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::FolderRequester::~FolderRequester()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::FolderSelectionDialog::~FolderSelectionDialog()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::FolderTreeView::~FolderTreeView()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::FolderTreeWidget::~FolderTreeWidget()@Base" 4:15.12
- (c++)"non-virtual thunk to MailCommon::IncidencesForWidget::~IncidencesForWidget()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::InvalidFilterDialog::~InvalidFilterDialog()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::InvalidFilterInfoWidget::~InvalidFilterInfoWidget()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::InvalidFilterListView::~InvalidFilterListView()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::InvalidFilterWidget::~InvalidFilterWidget()@Base" 4:15.12
+ (c++)"non-virtual thunk to MailCommon::KMFilterAccountList::~KMFilterAccountList()@Base" 4:17.08.0
  (c++)"non-virtual thunk to MailCommon::MDNAdviceDialog::~MDNAdviceDialog()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::RedirectDialog::~RedirectDialog()@Base" 4:15.12
  (c++)"non-virtual thunk to MailCommon::SearchPatternEdit::~SearchPatternEdit()@Base" 4:15.12
