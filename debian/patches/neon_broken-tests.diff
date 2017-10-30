@@ -1,14 +1,17 @@
-Index: mailcommon/src/filter/autotests/CMakeLists.txt
-===================================================================
---- mailcommon.orig/src/filter/autotests/CMakeLists.txt
-+++ mailcommon/src/filter/autotests/CMakeLists.txt
-@@ -245,9 +245,3 @@ add_mailcommon_filter_test(filteractionm
-     filteractionmissingtagdialogtest.cpp
+diff --git a/src/filter/autotests/CMakeLists.txt b/src/filter/autotests/CMakeLists.txt
+index 4a81fc6..b6e9fb6 100644
+--- a/src/filter/autotests/CMakeLists.txt
++++ b/src/filter/autotests/CMakeLists.txt
+@@ -264,12 +264,6 @@ add_mailcommon_filter_test(filteractionmissingtagdialogtest
      ../dialog/filteractionmissingtagdialog.cpp
      )
--
+ 
 -add_mailcommon_filter_test(filteractionmissingidentitydialogtest
 -    filteractionmissingidentitydialogtest.cpp
 -    ../dialog/filteractionmissingidentitydialog.cpp
 -    ../../../autotests/dummykernel.cpp
 -    )
+-
+ add_mailcommon_filter_test(filterimporterpathcachetest
+     filterimporterpathcachetest.cpp
+     ../filterimporterpathcache.cpp
