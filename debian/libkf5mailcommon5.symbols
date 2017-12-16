@@ -1013,6 +1013,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4:15.12
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4:15.12
+ (optional=templinst|arch=!amd64)_ZNK12KConfigGroup9readEntryIjEET_PKcRKS1_@Base 4:17.08.0
  _ZNK35FilterActionMissingCollectionDialog10metaObjectEv@Base 4:15.12
  _ZNK35FilterActionMissingCollectionDialog18selectedCollectionEv@Base 4:15.12
  (optional=templinst)_ZNK7Akonadi10Collection9attributeIN9PimCommon30CollectionAnnotationsAttributeEEEPT_v@Base 4:17.08.0
