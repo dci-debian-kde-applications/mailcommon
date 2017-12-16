@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:17.08.0 amd64
+# SymbolsHelper-Confirmed: 4:17.08.3 amd64
 libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon10MailFilter10readConfigERK12KConfigGroupb@Base 4:15.12
  _ZN10MailCommon10MailFilter10setEnabledEb@Base 4:15.12
@@ -650,7 +650,7 @@ libKF5MailCommon.so.5 libkf5mailcommon5 #MINVER#, libkf5mailcommon-plugins
  _ZN10MailCommon4Util17expireOldMessagesERKN7Akonadi10CollectionEb@Base 4:15.12
  _ZN10MailCommon4Util17isLocalCollectionERK7QString@Base 4:15.12
  _ZN10MailCommon4Util17updatedCollectionERKN7Akonadi10CollectionE@Base 4:15.12
- _ZN10MailCommon4Util18fullCollectionPathERKN7Akonadi10CollectionE@Base 4:15.12
+ _ZN10MailCommon4Util18fullCollectionPathERKN7Akonadi10CollectionEb@Base 4:17.08.3
  _ZN10MailCommon4Util19isVirtualCollectionERK7QString@Base 4:15.12
  _ZN10MailCommon4Util19isVirtualCollectionERKN7Akonadi10CollectionE@Base 4:15.12
  _ZN10MailCommon4Util19showJobErrorMessageEP4KJob@Base 4:15.12
