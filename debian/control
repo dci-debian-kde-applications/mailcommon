@@ -52,7 +52,6 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/mailcommon.git
 Package: libkf5mailcommon-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: same
 Depends: libkf5akonadi-dev (>= 4:17.08~),
          libkf5akonadimime-dev (>= 4:17.08~),
          libkf5config-dev (>= 5.35.0~),
