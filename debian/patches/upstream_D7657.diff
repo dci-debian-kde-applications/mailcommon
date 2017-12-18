@@ -1,0 +1,90 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -57,6 +57,7 @@
+ find_package(KF5WindowSystem ${KF5_VERSION} CONFIG REQUIRED)
+ find_package(KF5XmlGui ${KF5_VERSION} CONFIG REQUIRED)
+ find_package(KF5DBusAddons ${KF5_VERSION} CONFIG REQUIRED)
++find_package(KF5SyntaxHighlighting ${KF5_VERSION} CONFIG REQUIRED)
+ 
+ find_package(KF5Akonadi ${AKONADI_VERSION} CONFIG REQUIRED)
+ find_package(KF5AkonadiMime ${AKONADIMIME_LIB_VERSION} CONFIG REQUIRED)
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -241,6 +241,7 @@
+   KF5::IconThemes
+   KF5::Archive
+   KF5::ItemViews
++  KF5::SyntaxHighlighting
+ )
+ target_include_directories(KF5MailCommon INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF5}/MailCommon/;${KDE_INSTALL_INCLUDEDIR_KF5}/mailcommon>")
+ target_include_directories(KF5MailCommon PUBLIC "$<BUILD_INTERFACE:${mailcommon_SOURCE_DIR}/src;${mailcommon_BINARY_DIR}/src;${mailcommon_SOURCE_DIR}/src/search>")
+diff --git a/src/filter/autotests/CMakeLists.txt b/src/filter/autotests/CMakeLists.txt
+--- a/src/filter/autotests/CMakeLists.txt
++++ b/src/filter/autotests/CMakeLists.txt
+@@ -1,7 +1,7 @@
+ set(mailcommon_filter_test_LIBS Qt5::Test Qt5::Gui KF5::AkonadiCore KF5::AkonadiMime
+                                 KF5::LibkdepimAkonadi KF5::MailCommon KF5::PimCommon Phonon::phonon4qt5
+                                 KF5::KIOWidgets KF5::IconThemes KF5::TemplateParser
+-                                KF5::MailTransport KF5::I18n
++                                KF5::MailTransport KF5::I18n KF5::SyntaxHighlighting
+ )
+ 
+ add_definitions(-DTEST_PATH=\"${CMAKE_CURRENT_SOURCE_DIR}\")
+diff --git a/src/filter/filterconverter/filterconverttosieveresultdialog.h b/src/filter/filterconverter/filterconverttosieveresultdialog.h
+--- a/src/filter/filterconverter/filterconverttosieveresultdialog.h
++++ b/src/filter/filterconverter/filterconverttosieveresultdialog.h
+@@ -18,6 +18,7 @@
+ #ifndef FILTERCONVERTTOSIEVERESULTDIALOG_H
+ #define FILTERCONVERTTOSIEVERESULTDIALOG_H
+ 
++#include <KSyntaxHighlighting/Repository>
+ #include <QDialog>
+ 
+ namespace KPIMTextEdit {
+@@ -41,6 +42,7 @@
+     void readConfig();
+     void writeConfig();
+     KPIMTextEdit::PlainTextEditorWidget *mEditor = nullptr;
++    KSyntaxHighlighting::Repository mSyntaxRepo;
+ };
+ }
+ 
+diff --git a/src/filter/filterconverter/filterconverttosieveresultdialog.cpp b/src/filter/filterconverter/filterconverttosieveresultdialog.cpp
+--- a/src/filter/filterconverter/filterconverttosieveresultdialog.cpp
++++ b/src/filter/filterconverter/filterconverttosieveresultdialog.cpp
+@@ -16,13 +16,14 @@
+ */
+ 
+ #include "filterconverttosieveresultdialog.h"
+-#include "PimCommon/SieveSyntaxHighlighter"
+-#include "PimCommon/SieveSyntaxHighlighterUtil"
+ #include "kpimtextedit/plaintexteditor.h"
+ #include "kpimtextedit/plaintexteditorwidget.h"
+ #include <PimCommon/PimUtil>
+ 
+ #include <KLocalizedString>
++#include <KSyntaxHighlighting/Definition>
++#include <KSyntaxHighlighting/SyntaxHighlighter>
++#include <KSyntaxHighlighting/Theme>
+ 
+ #include <QHBoxLayout>
+ 
+@@ -53,10 +54,11 @@
+     mEditor = new KPIMTextEdit::PlainTextEditorWidget;
+     mEditor->editor()->setSpellCheckingSupport(false);
+     mEditor->setObjectName(QStringLiteral("editor"));
+-    PimCommon::SieveSyntaxHighlighter *syntaxHighlighter = new PimCommon::SieveSyntaxHighlighter(mEditor->editor()->document());
+-    PimCommon::SieveSyntaxHighlighterUtil sieveHighlighterutil;
+-    const QStringList capabilities = sieveHighlighterutil.fullCapabilities();
+-    syntaxHighlighter->addCapabilities(capabilities);
++    auto syntaxHighlighter = new KSyntaxHighlighting::SyntaxHighlighter(mEditor->editor()->document());
++    syntaxHighlighter->setDefinition(mSyntaxRepo.definitionForName(QStringLiteral("Sieve")));
++    syntaxHighlighter->setTheme((palette().color(QPalette::Base).lightness() < 128)
++        ? mSyntaxRepo.defaultTheme(KSyntaxHighlighting::Repository::DarkTheme)
++        : mSyntaxRepo.defaultTheme(KSyntaxHighlighting::Repository::LightTheme));
+     topLayout->addWidget(mEditor);
+     topLayout->addWidget(buttonBox);
+ 
+
